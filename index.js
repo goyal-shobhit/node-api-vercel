@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 app.use(bodyParser.json());
 
-app.use('/api/', routes);
+app.use('/', routes);
 
 app.use(express.static('public'));
 
