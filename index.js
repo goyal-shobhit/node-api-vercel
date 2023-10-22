@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 
 app.use('/', routes);
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 app.get('/api/csv-data', (req, res) => {
     try {
