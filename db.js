@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/docket_database', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/docket_database', { useNewUrlParser: true });
 
 const db = mongoose.connection;
 
